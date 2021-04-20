@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE</title>
+    <style>
+        body,p {
+            margin: 0;
+            padding: 0;
+        }
+        .page-container {
+            padding: 20px 70px;
+            background: black;
+        }
+        .page-display {
+            background: black;
+        }
+        .contact-bar {
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+        }
+        .contact-bar .pageheader .primary {
+            font-size: 25px;
+            color: yellow;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            padding: 5px 0;
+        }
+        .contact-bar .pageheader .secondary {
+            font-style: italic;
+        }
+        .nav-bar .nav-list {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding-left: 50px;
+            background: cyan;
+            color: black;
+        }
+        .nav-bar .nav-list .nav-item {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+        .content-container {
+            padding: 30px 20px;
+        }   
+
+        .content-container .headings {
+            margin-bottom: 30px;
+        }
+        .content-container .headings .headingtext {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 25px;
+            text-transform: uppercase;
+            color: orange;
+        }
+
+        .content-container .headings .headingtext.text1 {
+            text-align: right;
+        }
+
+        .content-container .gallery {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .content-container .gallery  img{
+            width: 19.5%;
+            height: 300px;
+        }
+
+        .content-container .descriptions {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-container .descriptions .text {
+            width: 60%;
+        }
+
+        .content-container .descriptions .text p{
+            margin-bottom: 12px;
+        }
+
+        .content-container .descriptions .ad {
+            width: 30%;
+        }
+
+        .content-container .descriptions .ad .headings {
+            display: inline-block;
+            width: 233px;
+            text-align: center;
+        }
+
+        .content-container .descriptions .ad img {
+            width: 233px;
+            border-radius: 8px;
+            height: 260px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        <div class="contact-bar">
+            <div class="pageheader">
+                <div class="primary">Showonwheels</div>
+                <div class="secondary">The ultimate way for booking Moview Tickets</div>
+            </div>
+            <div class="contact-info">
+                <div class="secondary">For Enquiry</div>
+                <div class="secondary">Call Us 2342344653</div>
+            </div>
+        </div>
+        <div class="page-display">
+            <div class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a>Home</a></li>
+                    <li class="nav-item"><a>About Us</a></li>
+                    <li class="nav-item"><a>Contact Us</a></li>
+                    <li class="nav-item"><a>Upcoming</a></li>
+                    <li class="nav-item"><a>Movies</a></li>
+                </ul>
+            </div>
+            <div class="content-container">
+                <div class="headings">
+                    <div class="headingtext text1">Hurry up heavy discount awaiting...</div>
+                    <div class="headingtext text2">now showing</div>
+                </div>
+                <div class="gallery">
+                    <img src="images/m1.jpg">
+                    <img src="images/m4.jpg">
+                    <img src="images/m6.jpg">
+                    <img src="images/m5.jpg">
+                    <img src="images/m2.jpg">
+                </div>
+                <div class="descriptions">
+                    <div class="text">
+                        <p style="color: white">
+                            The Company has, over the years, consistently added screens, both organically and inorganically, through strategic investments and acquisitions which includes ‘Cinemax Cinemas’ in November 2012, ‘DT Cinemas’ in May 2016 and ‘SPI Cinemas’ in August 2018 which added 138 screens, 32 screens and 76 screens respectively to our screen network. Currently, we operate 845 screens in 176 cinemas in 71 cities in India and Sri Lanka with an aggregate seating capacity of approximately 1.82 lakhs seats.
+                        </p>
+                        <p style="color: white">
+                            COMPANY STRENGTHS
+                            <ul style="color: white" type="square">
+                            	<li>Movie exhibition industry leader in India</li>
+                            	<li>Strategically located cinemas</li>
+                            	<li>Diversified product offerings and premium guest experience</li>
+                            	<li>Leadership across key operating metrics and robust financial position</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="ad">
+                        <div class="headings">
+                            <div class="headingtext">Latest hot offers!</div>
+                        </div>
+                        <div class="gallery">
+                        <img src="images/f1.jpg"> &nbsp;
+                        <img src="images/f2.jpg">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
